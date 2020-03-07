@@ -1,0 +1,26 @@
+
+$colNumber: 12;
+
+$mainMargin: 30px;
+
+@media (min-width: 768px) {
+.container {
+  margin: 0 $mainMargin;
+
+  .row {
+    display: flex;
+  }
+
+  [class*="col-"] {
+    box-sizing: border-box;
+    padding: 10px 20px 20px 20px;
+    //    height: 600px;
+    //    background-color: blue;
+  }
+    @for $i from 1 through $colNumber {
+      .col-#{$i}-#{$colNumber} {
+      width: (100/$colNumber * $i) * 1%;
+      }
+    }
+}
+}
