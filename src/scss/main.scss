@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 $color: #49c5b6; //nie ruszać - przyda się
 @import "grid";
 body {
@@ -11,7 +15,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	position: sticky;
-	top: 0px;
+	top: 0;
 }
 .main-nav-list {
 	margin: 0;
@@ -20,11 +24,24 @@ body {
 	display: flex;
 	li a {
 		display: inline-block;
-		color: grey;
+		color: #fff;
+		text-shadow: 1px 1px 5px gray;
 		font-size: 18px;
 		text-decoration: none;
 		padding: 20px 30px;
 	}
+}
+.box-title1{
+	margin-top: -300px;
+	margin-left: 250px;
+	margin-bottom: 250px;
+	color: #fff;
+	text-shadow: 5px 5px 10px #949bdd;
+	font-size: 50px;
+}
+.box-content1{
+	margin-top: 10px;
+	padding-top: 10px;
 }
 .main-logo {
 	margin-left: 35px;
@@ -53,14 +70,14 @@ body {
 		background-color: transparent;
 		border: none;
 		&:active {
-			background-color: #ff5b03;
+			background-color: darken(#949bdd, 1);
 		}
 		span {
 			display: block;
 			background-color: grey;
 			width:40px;
 			height:5px;
-			margin: 6px 3px;
+			margin: 6px 8px;
 		}
 	}
 		.page-header {
@@ -76,12 +93,13 @@ body {
 			left:-320px;
 			width: 320px;
 			height: 80%;
-			background: #ff5b03; //darken($color, 10);
+			background: #949bdd; //darken($color, 10);
 			flex-direction: column;
+			opacity: 0.88;
 		}
 		.main-nav-list.show {
 		//	transform: translate(100%);
-			transform: translate(320px, 90px); //zejdzie pod logo
+			transform: translate(320px, 80px); //zejdzie pod logo
 			.container {
 				margin: 0 $mainMargin;
 

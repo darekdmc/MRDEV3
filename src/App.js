@@ -7,7 +7,8 @@ const Main = ()=>{
               <div className="row">
               <div className="col-12-12">
                         <div className="box">
-                            <img src="images/photo1.jpeg" className="box-image"/>
+                            <img src="images/photo1.jpeg" alt="home1" className="box-image"/>
+                                <div className="box-title1">Twój nowy dom od 360.000 zł</div>
                                 <h2 className="box-title">Twój nowy dom od 360.000 zł</h2>
                                 <div className="box-content">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
@@ -23,7 +24,7 @@ const Main = ()=>{
                 <div className="row">
                     <div className="col-6-12">
                         <div className="box">
-                            <img src="images/photo2.jpeg" className="box-image"/>
+                            <img src="images/photo2.jpeg" alt="home2" className="box-image"/>
                                 <h2 className="box-title">Przykładowa aranżacja wnętrza</h2>
                                 <div className="box-content">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
@@ -37,7 +38,7 @@ const Main = ()=>{
                     </div>
                     <div className="col-6-12">
                         <div className="box">
-                            <img src="images/photo3.jpeg" className="box-image"/>
+                            <img src="images/photo3.jpeg" alt="home3" className="box-image"/>
                                 <h2 className="box-title">Zamieszkaj w Tulcach przy ulicy Krótkiej</h2>
                                 <div className="box-content">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
@@ -85,7 +86,7 @@ const Navigation = ()=>{
     return (
         <>
             <ul className="main-nav-list" id="menu">
-                <li><NavLink activeStyle={activeStyle} to="/" >Strona główna</NavLink></li>
+                <li><NavLink activeStyle={activeStyle} exact to="/" >Strona główna</NavLink></li>
                 <li><NavLink activeStyle={activeStyle} to="/offer" >Oferta</NavLink></li>
                 <li><NavLink activeStyle={activeStyle} to="/about" >O nas</NavLink></li>
                 <li><NavLink activeStyle={activeStyle} to="/gallery" >Galeria</NavLink></li>
@@ -97,22 +98,34 @@ const Navigation = ()=>{
 const NotFound = ()=>{
     return <h1>Błąd 404 - Nie znaleziono takiej strony</h1>
 };
+class Button extends React.Component {
+
+    handleClick(e){
+        const menu = document.querySelector('.main-nav-list');
+        menu.classList.toggle('show');
+    }
+    render() {
+        return (
+            <button onClick={e => this.handleClick(e)} className="main-nav-toggle" aria-label="Pokaż menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        )
+    }
+}
 const App = () => (
     <div>
         <Router>
             <header className="page-header">
                 <h1 className="main-logo">
-                    <a href="#">
-                        <img src="images/logo.png" width="248" height="68" alt="LogoExample"/>
+                    <a href="http://www.m-rdevelopment.pl">
+                        <img src="images/logo.png" width="248" height="68" alt="Logo"/>
                     </a>
                 </h1>
                 <div className="main-nav">
                     <Navigation/>
-                    <button className="main-nav-toggle" aria-label="Pokaż menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+                    <Button />
                 </div>
             </header>
             <Switch>
