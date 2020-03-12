@@ -32,17 +32,18 @@ body {
 	}
 }
 .box-title1{
-	margin-top: -300px;
-	margin-left: 250px;
-	margin-bottom: 250px;
 	color: #fff;
 	text-shadow: 5px 5px 10px #949bdd;
 	font-size: 50px;
+	position: absolute;
+	bottom: 150px;
+	left: 20px;
 }
-.box-content1{
-	margin-top: 10px;
-	padding-top: 10px;
+.box1 {
+	position: relative;
+	z-index: -1;
 }
+
 .main-logo {
 	margin-left: 35px;
 }
@@ -102,7 +103,6 @@ body {
 			transform: translate(320px, 80px); //zejdzie pod logo
 			.container {
 				margin: 0 $mainMargin;
-
 				.row {
 					display: flex;
 				}

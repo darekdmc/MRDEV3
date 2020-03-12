@@ -6,7 +6,7 @@ const Main = ()=>{
             <div className="container">
               <div className="row">
               <div className="col-12-12">
-                        <div className="box">
+                        <div className="box1">
                             <img src="images/photo1.jpeg" alt="home1" className="box-image"/>
                                 <div className="box-title1">Twój nowy dom od 360.000 zł</div>
                                 <h2 className="box-title">Twój nowy dom od 360.000 zł</h2>
