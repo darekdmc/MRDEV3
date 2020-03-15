@@ -56,7 +56,7 @@ const Main = ()=>{
                     <div className="col-6-12">
                         <div className="box">
                             <img src="images/photo3.jpeg" alt="home3" className="box-image"/>
-                            <h4 className="box-title">Zamieszkaj w Tulcach przy ulicy Krótkiej</h4>
+                            <h4 className="box-title">Zamieszkaj w Tulcach przy ulicy Krótkiej!</h4>
                             <div className="box-content">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
                                 laboriosam mollitia nihil omnis possimus repellendus. Ab aut consequatur dignissimos
