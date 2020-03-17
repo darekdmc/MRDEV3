@@ -89,6 +89,24 @@ const Main = ()=>{
     )
 };
 
+const zoomOutProperties2 = {
+    duration: 4000,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: false,
+    scale: 0.4,
+    arrows: false
+};
+const Slideshow = () => {
+    return (
+        <Zoom {...zoomOutProperties2}>
+            {
+                images.map((each, index) => <img alt="slideshow" key={index} style={{width: "100%"}} src={each} />)
+            }
+        </Zoom>
+    )
+};
+
 const zoomOutProperties = {
     duration: 4000,
     transitionDuration: 500,
@@ -96,15 +114,6 @@ const zoomOutProperties = {
     indicators: true,
     scale: 0.4,
     arrows: true
-};
-const Slideshow = () => {
-    return (
-        <Zoom {...zoomOutProperties}>
-            {
-                images.map((each, index) => <img alt="slideshow" key={index} style={{width: "100%"}} src={each} />)
-            }
-        </Zoom>
-    )
 };
 const Slideshowmini = () => {
     return (
