@@ -24,16 +24,25 @@ const Main = ()=>{
                 <div className="row">
                     <div className="col-12-12">
                         <div className="box1">
+                            <div className="wrapper">
+                                <div className="loading">
+                                    <div className="blobBody"/>
+                                </div>
+                            </div>
+                            <div className="wrapper2">
                             <img src="images/photo1.jpeg" alt="home1" className="box-image"/>
                             <div className="box-title1">Twój nowy dom od 360.000 zł</div>
-                            <h2 className="box-title">Twój nowy dom od 360.000 zł</h2>
-                            <div className="box-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
-                                laboriosam mollitia nihil omnis possimus repellendus. Ab aut consequatur dignissimos
-                                dolores dolorum, expedita illo incidunt natus nulla officiis perferendis quae
-                                quibusdam, repellendus similique temporibus totam voluptate voluptatem? Aliquam
-                                dicta exercitationem fugit illo iure labore laboriosam nostrum qui sunt
-                                voluptatibus.
+                            </div>
+                            <h2 className="box-title">Nowe mieszkania w stanie deweloperskim</h2>
+                            <div className="box-content1">
+                                W M&R DEVELOPMENT otrzymasz nowoczesne domy w stanie deweloperskim niedaleko Poznania wybudowane w najwyższym standardzie.<br />
+                                Nasze domy to kwintesencja piękna, funkcjonalności i wygody. Domy typu szeregowce to obecnie jedne z lepszych rozwiązań architektonicznych.<br />
+                                Są idealne dla osób ceniących sobie spokój życia we własnych czterech ścianach, niekoniecznie rezygnując z tworzenia sąsiedzkich więzi i poczucia bezpieczeństwa.<br />
+                                Szeregowce zapewniają przyjemność z życia w domu jednorodzinnym, jednocześnie będąc blisko centrum miasta, do którego z łatwością można się dostać.<br />
+                                Chcesz podarować swojej rodzinie BEZPIECZEŃSTWO oraz tradycyjność połączoną z nowoczesnością?<br />
+                                M&R DEVELOPMENT może Ci w tym pomóc – nowe domy na sprzedaż naszego autorstwa z pewnością zaspokoją wszystkie potrzeby Twoje i Twojej rodziny!<br />
+                                Nie czekaj – sprawdź naszą ofertę i wybierz swój wymarzony dom! Domy szeregowe znajdują w atrakcyjnej lokalizacji - Tulce – gmina Kleszczewo okolice Poznania!<br />
+                                Taka szansa zdarza się raz, dlatego zobacz nasze mieszkania w szeregowcu już dziś! Zanim inni zrobią to przed Tobą!
                             </div>
                         </div>
                     </div>
@@ -44,12 +53,10 @@ const Main = ()=>{
                             <Slideshowmini className="box-image"/>
                             <h3 className="box-title">Przykładowa aranżacja wnętrza</h3>
                             <div className="box-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
-                                laboriosam mollitia nihil omnis possimus repellendus. Ab aut consequatur dignissimos
-                                dolores dolorum, expedita illo incidunt natus nulla officiis perferendis quae
-                                quibusdam, repellendus similique temporibus totam voluptate voluptatem? Aliquam
-                                dicta exercitationem fugit illo iure labore laboriosam nostrum qui sunt
-                                voluptatibus.
+                                Domy z rynku pierwotnego to inwestycja, która się zwróci przede wszystkim wysokim komfortem życia.
+                                Wiele firm podobnie jak nasza oferuje za dopłatą gotowe do mieszkania domy „pod klucz”, które już są w pełni wyposażone w meble i sprzęt.
+                                Jest to ogromna oszczędność czasu i pieniędzy, dlatego tak często poleca się je młodym rodzinom,
+                                które dopiero będą sobie układały wspólne, stabilne życie.
                             </div>
                         </div>
                     </div>
@@ -58,12 +65,12 @@ const Main = ()=>{
                             <img src="images/photo3.jpeg" alt="home3" className="box-image"/>
                             <h4 className="box-title">Zamieszkaj w Tulcach przy ulicy Krótkiej!</h4>
                             <div className="box-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
-                                laboriosam mollitia nihil omnis possimus repellendus. Ab aut consequatur dignissimos
-                                dolores dolorum, expedita illo incidunt natus nulla officiis perferendis quae
-                                quibusdam, repellendus similique temporibus totam voluptate voluptatem? Aliquam
-                                dicta exercitationem fugit illo iure labore laboriosam nostrum qui sunt
-                                voluptatibus.
+                                W M&R DEVELOPMENT szczególną uwagę przykuwamy do lokalizacji swoich domów na sprzedaż.
+                                Domy w stanie deweloperskim znajdują się na peryferiach miasta - okolice Poznania,
+                                gminy Kleszczewo - w pięknej, zielonej okolicy, z dala od miejskiego zgiełku
+                                i natłoku samochodów za oknem.
+                                Są to prestiżowe dzielnice, które jednocześnie zapewniają spokój i wygodną komunikację.
+                                Domy z rynku pierwotnego to również niższe koszty transakcji.
                             </div>
                         </div>
                     </div>
@@ -72,14 +79,11 @@ const Main = ()=>{
                     <div className="col-12-12">
                         <div className="box1">
                             <Slideshow className="box-image"/>
-                            <h5 className="box-title">Twój nowy dom od 360.000 zł</h5>
+                            <h5 className="box-title">Twój nowy dom u nas już od 360.000 zł</h5>
                             <div className="box-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores ipsum
-                                laboriosam mollitia nihil omnis possimus repellendus. Ab aut consequatur dignissimos
-                                dolores dolorum, expedita illo incidunt natus nulla officiis perferendis quae
-                                quibusdam, repellendus similique temporibus totam voluptate voluptatem? Aliquam
-                                dicta exercitationem fugit illo iure labore laboriosam nostrum qui sunt
-                                voluptatibus.
+                                W M&R DEVELOPMENT oddajemy domy w stanie deweloperskim.
+                                Postawione przez nas osiedla mają podłączone wszystkie wymagane instalacje (elektryczna, grzewcza, wodno-sanitarna)
+                                oraz wykonane tynki wraz z wylewkami. To korzystna inwestycja ze względu na niższe ceny zakupu mieszkania.
                             </div>
                         </div>
                     </div>
@@ -94,7 +98,7 @@ const zoomOutProperties2 = {
     transitionDuration: 500,
     infinite: true,
     indicators: false,
-    scale: 0.4,
+    scale: 1.4,
     arrows: false
 };
 const Slideshow = () => {
