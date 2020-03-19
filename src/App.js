@@ -64,7 +64,33 @@ const App = () => (
                 <Route component={NotFound} />
             </Switch>
             <footer>
-        
+                <div className="container">
+                    <div className="row">
+                        <div className="col-6-12">
+                            <div className="box">
+                                <div className="box-content">
+                                    <div className="fb-logo">
+                                        <a href="https://www.facebook.com/RM-Development-108325960601591/">
+                                            <img src="images/facebook.png" width="38" height="38" alt="FBlogo"/>
+                                        </a>
+                                    </div>
+                                    tel. 607 065 112 <br />tel. 609 800 993
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-6-12">
+                            <div className="box">
+                                <div className="footer-content">
+                                    2020 M&R DEVELOPMENT &nbsp;&nbsp;&nbsp;&nbsp;DESIGN BY:&nbsp;&nbsp;
+                                    <a href="https://github.com/darekdmc">
+                                        <img src="images/git.png" width="18" height="18" alt="gitlogo"/>
+                                    </a>
+                                    <a className="link2" href="mailto:darekdmc@gmail.com">&nbsp;&nbsp;darekdmc@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </Router>
     </div>
