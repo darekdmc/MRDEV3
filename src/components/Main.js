@@ -14,6 +14,8 @@ import photo6 from "../img/Widok 6.jpeg"
 import photo7 from "../img/Widok 7.jpeg"
 import photo8 from "../img/Widok 8.jpeg"
 import photo9 from "../img/Widok 9.jpeg"
+import mainphoto1 from"../img/photo1.jpeg"
+import mainphoto3 from"../img/photo3.jpeg"
 
 const images = [img1, img2, img3, img4, img5];
 const photos = [photo1, photo2, photo3, photo4, photo5, photo6,  photo7, photo8, photo9];
@@ -30,7 +32,7 @@ const Main = ()=>{
                                 </div>
                             </div>
                             <div className="wrapper2">
-                            <img src="images/photo1.jpeg" alt="home1" className="box-image"/>
+                            <img src={mainphoto1} alt="home1" className="box-image"/>
                             <div className="box-title1">Twój nowy dom od 360.000 zł</div>
                             </div>
                             <h2 className="box-title">Nowe mieszkania w stanie deweloperskim</h2>
@@ -62,7 +64,7 @@ const Main = ()=>{
                     </div>
                     <div className="col-6-12">
                         <div className="box">
-                            <img src="images/photo3.jpeg" alt="home3" className="box-image"/>
+                            <img src={mainphoto3} alt="home3" className="box-image"/>
                             <h4 className="box-title">Zamieszkaj w Tulcach przy ulicy Krótkiej!</h4>
                             <div className="box-content">
                                 W M&R DEVELOPMENT szczególną uwagę przykuwamy do lokalizacji swoich domów na sprzedaż.

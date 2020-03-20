@@ -23,6 +23,7 @@ import p5 from "../img/5.jpg"
 import p6 from "../img/6.jpg"
 import p7 from "../img/7.jpg"
 import p8 from "../img/8.jpg"
+import mainelew6 from "../img/elew6.jpg"
 
 
 const images = [img1, img2, img3, img4, img5];
@@ -59,7 +60,7 @@ const Offer = ()=>{
             <div className="row">
                 <div className="col-6-12">
                     <div className="box">
-                        <img src="images/elew6.jpg" alt="elew6" className="box-image"/>
+                        <img src={mainelew6} alt="elew6" className="box-image"/>
                         <h6 className="box-title">Zamieszkaj w Tulcach przy ulicy Krótkiej!</h6>
                         <div className="box-content">
                             W M&R DEVELOPMENT szczególną uwagę przykuwamy do lokalizacji swoich domów na sprzedaż.<br />

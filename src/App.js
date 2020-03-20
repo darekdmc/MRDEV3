@@ -6,6 +6,10 @@ import Gallery from "./components/Gallery"
 import NotFound from "./components/NotFound"
 import Offer from "./components/Offer"
 import {Route,HashRouter as Router,Switch,NavLink} from "react-router-dom"
+import facebookicon from "./img/facebook.png"
+import giticon from "./img/git.png"
+import logo from "./img/logo.png"
+
 
 const activeStyle = {
     fontWeight: "bold"
@@ -46,7 +50,7 @@ const App = () => (
             <header className="page-header">
                 <h1 className="main-logo">
                     <a href="http://www.m-rdevelopment.pl">
-                        <img src="images/logo.png" width="248" height="68" alt="Logo"/>
+                        <img src={logo} width="248" height="68" alt="Logo"/>
                     </a>
                 </h1>
                 <div className="main-nav">
@@ -71,7 +75,7 @@ const App = () => (
                                 <div className="box-content">
                                     <div className="fb-logo">
                                         <a href="https://www.facebook.com/RM-Development-108325960601591/">
-                                            <img src="images/facebook.png" width="38" height="38" alt="FBlogo" className="fb-logo-transform"/>
+                                            <img src={facebookicon} width="38" height="38" alt="FBlogo" className="fb-logo-transform"/>
                                         </a>
                                     </div>
                                     tel. 607 065 112 <br />tel. 609 800 993
@@ -83,7 +87,7 @@ const App = () => (
                                 <div className="footer-content">
                                     2020 M&R DEVELOPMENT &nbsp;&nbsp;&nbsp;&nbsp;DESIGN BY:&nbsp;&nbsp;
                                     <a href="https://github.com/darekdmc">
-                                        <img src="images/git.png" width="18" height="18" alt="gitlogo" className="git-logo"/>
+                                        <img src={giticon} width="18" height="18" alt="gitlogo" className="git-logo"/>
                                     </a>
                                     <a className="link2" href="mailto:darekdmc@gmail.com">&nbsp;&nbsp;darekdmc@gmail.com</a>
                                 </div>

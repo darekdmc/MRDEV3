@@ -1,4 +1,5 @@
 import React from "react";
+import mainphoto3 from "../img/photo3.jpeg";
 const AboutUs = ()=>{
     return (
         <div className="container">
@@ -17,7 +18,7 @@ const AboutUs = ()=>{
                             oraz dokładamy wszelkich starań by odpowiedzieć na oczekiwania naszych Klientów.
                         </div>
                         <div className="about-us-photo">
-                            <img src="images/photo3.jpeg" alt="drawing" width="100%" height="100%"/>
+                            <img src={mainphoto3} alt="drawing" width="100%" height="100%"/>
                         </div>
                     </div>
                 </div>
