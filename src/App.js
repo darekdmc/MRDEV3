@@ -71,7 +71,7 @@ const App = () => (
                                 <div className="box-content">
                                     <div className="fb-logo">
                                         <a href="https://www.facebook.com/RM-Development-108325960601591/">
-                                            <img src="images/facebook.png" width="38" height="38" alt="FBlogo"/>
+                                            <img src="images/facebook.png" width="38" height="38" alt="FBlogo" className="fb-logo-transform"/>
                                         </a>
                                     </div>
                                     tel. 607 065 112 <br />tel. 609 800 993
@@ -83,7 +83,7 @@ const App = () => (
                                 <div className="footer-content">
                                     2020 M&R DEVELOPMENT &nbsp;&nbsp;&nbsp;&nbsp;DESIGN BY:&nbsp;&nbsp;
                                     <a href="https://github.com/darekdmc">
-                                        <img src="images/git.png" width="18" height="18" alt="gitlogo"/>
+                                        <img src="images/git.png" width="18" height="18" alt="gitlogo" className="git-logo"/>
                                     </a>
                                     <a className="link2" href="mailto:darekdmc@gmail.com">&nbsp;&nbsp;darekdmc@gmail.com</a>
                                 </div>
