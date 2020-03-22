@@ -38,7 +38,7 @@ const Offer = ()=>{
                     <div className="box">
                         <h5 className="box-title">Nasza aktualna oferta:<br />
                             1. Szeregowce w Tulcach na ulicy Krótkiej</h5>
-                        <div className="box-content1">Widok lokalizacji z drona:<br />
+                        <div className="box-content-offer">Widok lokalizacji z drona:<br />
                             <br />
                             <div className="video-wrapper">
                                 <div className="video">
@@ -160,7 +160,7 @@ const Slideshow3 = () => {
     return (
         <Zoom {...zoomOutProperties3}>
             {
-                schems.map((each, index) => <img alt="slideshow3" key={index} style={{width: "100%"}} src={each} />)
+                schems.map((each, index) => <img alt="slideshow3" key={index} className="horizontal-slides" style={{width: "100%"}} src={each} />)
             }
         </Zoom>
     )
@@ -169,7 +169,7 @@ const Slideshowmini2 = () => {
     return (
         <Zoom {...zoomOutProperties4}>
             {
-                photos.map((each, index) => <img alt="slideshow2" key={index} style={{width: "100%"}} src={each} />)
+                photos.map((each, index) => <img alt="slideshow2" key={index} className="half-slides" style={{width: "100%"}} src={each} />)
             }
         </Zoom>
     )
@@ -178,7 +178,7 @@ const Slideshowel = () => {
     return (
         <Zoom {...zoomOutProperties3}>
             {
-                images.map((each, index) => <img alt="slideshow" key={index} style={{width: "100%"}} src={each} />)
+                images.map((each, index) => <img alt="slideshow" key={index} className="half-slides" style={{width: "100%"}} src={each} />)
             }
         </Zoom>
     )
@@ -187,7 +187,7 @@ const Slideshowfloor = () => {
     return (
         <Zoom {...zoomOutProperties4}>
             {
-                floor.map((each, index) => <img alt="slideshow3" key={index} style={{width: "100%"}} src={each} />)
+                floor.map((each, index) => <img alt="slideshow3" key={index} className="big-slides" style={{width: "100%"}} src={each} />)
             }
         </Zoom>
     )

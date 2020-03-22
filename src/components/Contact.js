@@ -18,7 +18,7 @@ const Contact = ()=>{
                                 Rafał Matyjaszczyk tel. 607 065 112<br />
                                 Mirosław Biernacki tel. 609 800 993<br />
                                 Adres e-mail: <br />
-                                <a className="link" href="mailto:kontakt.rmdevelopment@gmail.com">kontakt.rmdevelopment@gmail.com</a>
+                                <a className="link" href="mailto:kontakt.mrdevelopment@gmail.com">kontakt.mrdevelopment@gmail.com</a>
                             </div>
                         </div>
                     </div>

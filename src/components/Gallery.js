@@ -51,7 +51,7 @@ const Slideshowg = () => {
     return (
     <Zoom {...zoomOutProperties4}>
     {
-        gal.map((each, index) => <img alt="slideshow3" key={index} style={{width: "100%"}} src={each} />)
+        gal.map((each, index) => <img alt="slideshow3a" key={index} className="big-slides" style={{width: "100%"}} src={each} />)
     }
     </Zoom>
     )

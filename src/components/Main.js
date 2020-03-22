@@ -107,7 +107,7 @@ const Slideshow = () => {
     return (
         <Zoom {...zoomOutProperties2}>
             {
-                images.map((each, index) => <img alt="slideshow" key={index} style={{width: "100%"}} src={each} />)
+                images.map((each, index) => <img alt="slideshow" key={index} className="big-slides" style={{width: "100%"}} src={each} />)
             }
         </Zoom>
     )
@@ -125,7 +125,7 @@ const Slideshowmini = () => {
     return (
         <Zoom {...zoomOutProperties}>
             {
-                photos.map((each, index) => <img alt="slideshow2" key={index} style={{width: "100%"}} src={each} />)
+                photos.map((each, index) => <img alt="slideshow2" key={index} className="half-slides" style={{width: "100%"}} src={each} />)
             }
         </Zoom>
     )

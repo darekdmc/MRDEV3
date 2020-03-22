@@ -53,7 +53,6 @@ body {
 	font-size: 40px;
 	font-weight: bold;
 }
-
 .list-style-title {
 	text-align: center;
 	padding: 30px 30px;
@@ -85,6 +84,16 @@ body {
 	font-size: large;
 	line-height: 40px;
 }
+.box-content-offer {
+	text-align: center;
+	padding: 20px 80px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	border-radius: 10px;
+	background: linear-gradient(#949bdd 95%, #fff);
+	font-size: large;
+	line-height: 40px;
+}
 .box-content-about {
 	text-align: center;
 	padding: 20px 80px;
@@ -106,6 +115,15 @@ body {
 	color: grey;
 	font-size: large;
 	line-height: 30px;
+}
+.big-slides {
+	max-height: 100vh;
+}
+.half-slides {
+	max-height: 54vh;
+}
+.horizontal-slides {
+	max-height: 120vh;
 }
 .footer-content {
 	text-align: right;
@@ -239,6 +257,15 @@ body {
 				}
 			}
 		}
+		.big-slides {
+			max-height: 45vh;
+		}
+		.half-slides {
+			max-height: 45vh;
+		}
+		.horizontal-slides {
+			max-height: 100vh;
+		}
 }
 .git-logo {
 	&:hover {
@@ -265,6 +292,61 @@ body {
 	left:0;
 	top:0;
 	z-index:-10;
+}
+@media (max-width: 580px) {
+	.box-title1{
+		font-size: 20px;
+		bottom: 15px;
+		left: 10px;
+	}
+	.main-logo {
+		margin-left: 2px;
+	}
+	.box-title {
+		padding: 5px 20px;
+		font-size: 25px;
+	}
+	.box-content1 {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 12px;
+		padding-bottom: 35px;
+		line-height: 25px;
+	}
+	.box-content {
+		padding: 10px 20px;
+		line-height: 25px;
+	}
+	.li {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.box-content-about {
+		padding: 25px 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+		line-height: 28px;
+	}
+	.link {
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.box-content-offer {
+		padding-left: 1px;
+		padding-right: 1px;
+		padding-top: 12px;
+		padding-bottom: 15px;
+		line-height: 25px;
+	}
+	.big-slides {
+		max-height: 35vh;
+	}
+	.half-slides {
+		max-height: 35vh;
+	}
+	.horizontal-slides {
+		max-height: 80vh;
+	}
 }
 
 
