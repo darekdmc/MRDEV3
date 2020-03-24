@@ -2,6 +2,7 @@ import React from "react";
 import {Zoom} from "react-slideshow-image";
 import sch1 from "../img/schemat1.png"
 import sch2 from "../img/schemat2.png"
+import sch3 from "../img/schemat3.jpg"
 import img1 from "../img/elewacja1.jpg"
 import img2 from "../img/elewacja2.jpg"
 import img3 from "../img/elewacja3.jpg"
@@ -28,7 +29,7 @@ import mainelew6 from "../img/elew6.jpg"
 
 const images = [img1, img2, img3, img4, img5];
 const photos = [photo1, photo2, photo3, photo4, photo5, photo6,  photo7, photo8, photo9];
-const schems = [sch1, sch2];
+const schems = [sch1, sch3, sch2];
 const floor = [p2, p3, p4, p5, p6, p7, p8];
 const Offer = ()=>{
     return (
@@ -81,22 +82,22 @@ const Offer = ()=>{
                         <div className="list-style-title">DOMY WYBUDOWANE ZOSTAŁY WEDŁUG NASTĘPUJĄCYCH PARAMETRÓW:</div>
                             <ul className="list-style">
                                 <li className="li">- budynek murowany, niepodpiwniczony, dwukondygnacyjny z dachem stromym,</li>
-                                <li className="li">- miejsce postojowe na działce,</li>
-                                <li className="li">- ściany budynku konstrukcyjne z cegły ceramicznej (25cm),</li>
+                                <li className="li">- 2 miejsca parkingowe na działce,</li>
+                                <li className="li">- ściany konstrukcyjne z betonu komórkowego Solbet 24cm,</li>
                                 <li className="li">- schody żelbetonowe,</li>
-                                <li className="li">- konstrukcja dachu: wiązary drewniane, dachówka ceramiczna w kolorze grafitowym,</li>
+                                <li className="li">- konstrukcja dachu: kratownica, pokrycie blachodachówką w kolorze grafitowym,</li>
                                 <li className="li">- okna PCV z roletami, szklenie 2 szybowe, parapety zewnętrzne z blachy,</li>
                                 <li className="li">- drzwi zewnętrzne w kolorze grafitowym,</li>
-                                <li className="li">- elewacja zewnętrzna: ściany zewnętrzne ocieplone 20-centymetrową warstwą styropianu,</li>
-                                <li className="li">- ściany działowe wewnętrzne gr. 11 cm murowane z cegły ceramicznej, tynk gipsowy,</li>
+                                <li className="li">- elewacja zewnętrzna: ściany zewnętrzne ocieplone 15-centymetrową warstwą styropianu,</li>
+                                <li className="li">- ściany działowe wewnętrzne gr. 8 cm, 12 cm murowane z betonu komórkowego,</li>
                                 <li className="li">- sufit na piętrze, ocieplony wełną i zabudowany płytą G/K,</li>
                                 <li className="li">- posadzki cementowe, izolowane przeciwwilgociowo i cieplnie,</li>
                                 <li className="li">- instalacja elektryczna - okablowanie wraz z osprzętem w kolorze białym z wykonaną rozdzielnią,</li>
-                                <li className="li">- instalacja RTV-SAT, alarmowa, IT - okablowanie bez osprzętu,</li>
+                                <li className="li">- instalacja RTV-SAT, IT - okablowanie bez osprzętu,</li>
                                 <li className="li">- instalacja WOD-KAN-CO-GAZ, kompletny system grzewczy,</li>
                                 <li className="li">- przyłącza: woda miejska, prąd, gaz płynny, sieć kanalizacji sanitarnej,</li>
                                 <li className="li">- zagospodarowanie terenu: opłotowanie ogrodu siatką parkową z obrzeżami trawnikowymi,</li>
-                                <li className="li">- front wyłożony kostką brukową, z miejscem postojowym dla samochodu i chodnikiem wejściowym,</li>
+                                <li className="li">- front wyłożony kostką brukową, miejsca parkingowe utwardzone płytą ażurową,</li>
                                 <li className="li">- ogród: niwelacja terenu.</li>
                             </ul>
 
@@ -141,9 +142,9 @@ const Offer = ()=>{
 };
 
 const zoomOutProperties3 = {
-    duration: 4000,
+    duration: 5000,
     transitionDuration: 500,
-    infinite: false,
+    infinite: true,
     indicators: true,
     scale: 0.4,
     arrows: true

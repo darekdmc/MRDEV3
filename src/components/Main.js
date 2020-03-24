@@ -43,8 +43,7 @@ const Main = ()=>{
                                 Szeregowce zapewniają przyjemność z życia w domu jednorodzinnym, jednocześnie będąc blisko centrum miasta, do którego z łatwością można się dostać.<br />
                                 Chcesz podarować swojej rodzinie BEZPIECZEŃSTWO oraz tradycyjność połączoną z nowoczesnością?<br />
                                 M&R DEVELOPMENT może Ci w tym pomóc – nowe domy na sprzedaż naszego autorstwa z pewnością zaspokoją wszystkie potrzeby Twoje i Twojej rodziny!<br />
-                                Nie czekaj – sprawdź naszą ofertę i wybierz swój wymarzony dom! Domy szeregowe znajdują w atrakcyjnej lokalizacji - Tulce – gmina Kleszczewo okolice Poznania!<br />
-                                Taka szansa zdarza się raz, dlatego zobacz nasze mieszkania w szeregowcu już dziś! Zanim inni zrobią to przed Tobą!
+                                Nie czekaj – sprawdź naszą ofertę i wybierz swój wymarzony dom! Domy szeregowe znajdują w atrakcyjnej lokalizacji - Tulce – gmina Kleszczewo okolice Poznania!
                             </div>
                         </div>
                     </div>
