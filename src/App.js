@@ -14,18 +14,24 @@ import logo from "./img/logo.png"
 const activeStyle = {
     fontWeight: "bold"
 };
-const Navigation = ()=>{
-    return (
-        <>
-            <ul className="main-nav-list" id="menu">
-                <li><NavLink activeStyle={activeStyle} exact to="/" >Strona główna</NavLink></li>
-                <li><NavLink activeStyle={activeStyle} to="/offer" >Oferta</NavLink></li>
-                <li><NavLink activeStyle={activeStyle} to="/about" >O nas</NavLink></li>
-                <li><NavLink activeStyle={activeStyle} to="/gallery" >Galeria</NavLink></li>
-                <li><NavLink activeStyle={activeStyle} to="/contact" >Kontakt</NavLink></li>
-            </ul>
-        </>
-    )
+class Navigation extends React.Component {
+    changeClick(e){
+        const menu = document.querySelector('.main-nav-list');
+        menu.classList.remove('show')
+    }
+    render() {
+        return (
+            <>
+                <ul onClick={e => this.changeClick(e)} className="main-nav-list" id="menu">
+                    <li><NavLink activeStyle={activeStyle} exact to="/">Strona główna</NavLink></li>
+                    <li><NavLink activeStyle={activeStyle} to="/offer">Oferta</NavLink></li>
+                    <li><NavLink activeStyle={activeStyle} to="/about">O nas</NavLink></li>
+                    <li><NavLink activeStyle={activeStyle} to="/gallery">Galeria</NavLink></li>
+                    <li><NavLink activeStyle={activeStyle} to="/contact">Kontakt</NavLink></li>
+                </ul>
+            </>
+        )
+    }
 };
 
 class Button extends React.Component {
