@@ -17,7 +17,8 @@ const activeStyle = {
 class Navigation extends React.Component {
     changeClick(e){
         const menu = document.querySelector('.main-nav-list');
-        menu.classList.remove('show')
+        menu.classList.remove('show');
+        window.scrollTo(0, 0)
     }
     render() {
         return (
